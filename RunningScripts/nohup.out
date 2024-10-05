@@ -1,0 +1,530 @@
+wandb: Starting wandb agent 🕵️
+2024-09-28 21:16:07,617 - wandb.wandb_agent - INFO - Running runs: []
+2024-09-28 21:16:07,786 - wandb.wandb_agent - INFO - Agent received command: run
+2024-09-28 21:16:07,786 - wandb.wandb_agent - INFO - Agent starting run with config:
+	ENV_HPT_mode: False
+	bot_strategy_prob: 0
+	online_simulation_factor: 0
+	seed: 1
+2024-09-28 21:16:07,787 - wandb.wandb_agent - INFO - About to run command: python StrategyTransfer.py --ENV_HPT_mode=False --bot_strategy_prob=0 --online_simulation_factor=0 --seed=1
+python: can't open file 'StrategyTransfer.py': [Errno 2] No such file or directory
+wandb: Starting wandb agent 🕵️
+2024-09-28 21:16:12,797 - wandb.wandb_agent - INFO - Running runs: ['nobj2q27']
+2024-09-28 21:16:12,797 - wandb.wandb_agent - INFO - Cleaning up finished run: nobj2q27
+2024-09-28 21:16:13,128 - wandb.wandb_agent - INFO - Agent received command: run
+2024-09-28 21:16:13,128 - wandb.wandb_agent - INFO - Agent starting run with config:
+	ENV_HPT_mode: False
+	bot_strategy_prob: 0
+	online_simulation_factor: 0
+	seed: 2
+2024-09-28 21:16:13,129 - wandb.wandb_agent - INFO - About to run command: python StrategyTransfer.py --ENV_HPT_mode=False --bot_strategy_prob=0 --online_simulation_factor=0 --seed=2
+python: can't open file 'StrategyTransfer.py': [Errno 2] No such file or directory
+2024-09-28 21:16:13,762 - wandb.wandb_agent - INFO - Running runs: []
+2024-09-28 21:16:14,111 - wandb.wandb_agent - INFO - Agent received command: run
+2024-09-28 21:16:14,111 - wandb.wandb_agent - INFO - Agent starting run with config:
+	ENV_HPT_mode: False
+	bot_strategy_prob: 0
+	online_simulation_factor: 0
+	seed: 3
+2024-09-28 21:16:14,112 - wandb.wandb_agent - INFO - About to run command: python StrategyTransfer.py --ENV_HPT_mode=False --bot_strategy_prob=0 --online_simulation_factor=0 --seed=3
+python: can't open file 'StrategyTransfer.py': [Errno 2] No such file or directory
+wandb: Starting wandb agent 🕵️
+2024-09-28 21:16:18,137 - wandb.wandb_agent - INFO - Running runs: ['n6cbtl3k']
+2024-09-28 21:16:18,138 - wandb.wandb_agent - INFO - Cleaning up finished run: n6cbtl3k
+2024-09-28 21:16:18,371 - wandb.wandb_agent - INFO - Agent received command: run
+2024-09-28 21:16:18,371 - wandb.wandb_agent - INFO - Agent starting run with config:
+	ENV_HPT_mode: False
+	bot_strategy_prob: 0
+	online_simulation_factor: 0
+	seed: 4
+2024-09-28 21:16:18,372 - wandb.wandb_agent - INFO - About to run command: python StrategyTransfer.py --ENV_HPT_mode=False --bot_strategy_prob=0 --online_simulation_factor=0 --seed=4
+python: can't open file 'StrategyTransfer.py': [Errno 2] No such file or directory
+2024-09-28 21:16:19,122 - wandb.wandb_agent - INFO - Running runs: ['yrso1tg9']
+2024-09-28 21:16:19,122 - wandb.wandb_agent - INFO - Cleaning up finished run: yrso1tg9
+2024-09-28 21:16:19,433 - wandb.wandb_agent - INFO - Agent received command: run
+2024-09-28 21:16:19,433 - wandb.wandb_agent - INFO - Agent starting run with config:
+	ENV_HPT_mode: False
+	bot_strategy_prob: 0
+	online_simulation_factor: 0
+	seed: 5
+2024-09-28 21:16:19,434 - wandb.wandb_agent - INFO - About to run command: python StrategyTransfer.py --ENV_HPT_mode=False --bot_strategy_prob=0 --online_simulation_factor=0 --seed=5
+python: can't open file 'StrategyTransfer.py': [Errno 2] No such file or directory
+2024-09-28 21:16:21,798 - wandb.wandb_agent - INFO - Running runs: []
+2024-09-28 21:16:22,006 - wandb.wandb_agent - INFO - Agent received command: run
+2024-09-28 21:16:22,006 - wandb.wandb_agent - INFO - Agent starting run with config:
+	ENV_HPT_mode: False
+	bot_strategy_prob: 0
+	online_simulation_factor: 4
+	seed: 1
+2024-09-28 21:16:22,008 - wandb.wandb_agent - INFO - About to run command: python StrategyTransfer.py --ENV_HPT_mode=False --bot_strategy_prob=0 --online_simulation_factor=4 --seed=1
+python: can't open file 'StrategyTransfer.py': [Errno 2] No such file or directory
+2024-09-28 21:16:23,382 - wandb.wandb_agent - INFO - Running runs: ['se8tcdg1']
+2024-09-28 21:16:23,383 - wandb.wandb_agent - ERROR - Detected 3 failed runs in the first 60 seconds, shutting down.
+2024-09-28 21:16:23,383 - wandb.wandb_agent - INFO - To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+wandb: Terminating and syncing runs. Press ctrl-c to kill.
+2024-09-28 21:16:24,444 - wandb.wandb_agent - INFO - Running runs: ['7n83jyzc']
+2024-09-28 21:16:24,444 - wandb.wandb_agent - INFO - Cleaning up finished run: 7n83jyzc
+2024-09-28 21:16:24,633 - wandb.wandb_agent - INFO - Agent received command: run
+2024-09-28 21:16:24,633 - wandb.wandb_agent - INFO - Agent starting run with config:
+	ENV_HPT_mode: False
+	bot_strategy_prob: 0
+	online_simulation_factor: 4
+	seed: 2
+2024-09-28 21:16:24,635 - wandb.wandb_agent - INFO - About to run command: python StrategyTransfer.py --ENV_HPT_mode=False --bot_strategy_prob=0 --online_simulation_factor=4 --seed=2
+python: can't open file 'StrategyTransfer.py': [Errno 2] No such file or directory
+wandb: Starting wandb agent 🕵️
+2024-09-28 21:16:27,017 - wandb.wandb_agent - INFO - Running runs: ['mfwkhsuc']
+2024-09-28 21:16:27,018 - wandb.wandb_agent - INFO - Cleaning up finished run: mfwkhsuc
+2024-09-28 21:16:27,437 - wandb.wandb_agent - INFO - Agent received command: run
+2024-09-28 21:16:27,438 - wandb.wandb_agent - INFO - Agent starting run with config:
+	ENV_HPT_mode: False
+	bot_strategy_prob: 0
+	online_simulation_factor: 4
+	seed: 3
+2024-09-28 21:16:27,439 - wandb.wandb_agent - INFO - About to run command: python StrategyTransfer.py --ENV_HPT_mode=False --bot_strategy_prob=0 --online_simulation_factor=4 --seed=3
+python: can't open file 'StrategyTransfer.py': [Errno 2] No such file or directory
+2024-09-28 21:16:29,652 - wandb.wandb_agent - INFO - Running runs: ['bhnshpcl']
+2024-09-28 21:16:29,652 - wandb.wandb_agent - ERROR - Detected 3 failed runs in the first 60 seconds, shutting down.
+2024-09-28 21:16:29,652 - wandb.wandb_agent - INFO - To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+wandb: Terminating and syncing runs. Press ctrl-c to kill.
+2024-09-28 21:16:32,448 - wandb.wandb_agent - INFO - Running runs: ['v81mimko']
+2024-09-28 21:16:32,449 - wandb.wandb_agent - INFO - Cleaning up finished run: v81mimko
+2024-09-28 21:16:32,654 - wandb.wandb_agent - INFO - Agent received command: run
+2024-09-28 21:16:32,654 - wandb.wandb_agent - INFO - Agent starting run with config:
+	ENV_HPT_mode: False
+	bot_strategy_prob: 0
+	online_simulation_factor: 4
+	seed: 4
+2024-09-28 21:16:32,655 - wandb.wandb_agent - INFO - About to run command: python StrategyTransfer.py --ENV_HPT_mode=False --bot_strategy_prob=0 --online_simulation_factor=4 --seed=4
+python: can't open file 'StrategyTransfer.py': [Errno 2] No such file or directory
+wandb: Starting wandb agent 🕵️
+2024-09-28 21:16:37,665 - wandb.wandb_agent - INFO - Running runs: ['i9lb8lko']
+2024-09-28 21:16:37,665 - wandb.wandb_agent - ERROR - Detected 3 failed runs in the first 60 seconds, shutting down.
+2024-09-28 21:16:37,665 - wandb.wandb_agent - INFO - To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+wandb: Terminating and syncing runs. Press ctrl-c to kill.
+2024-09-28 21:16:38,245 - wandb.wandb_agent - INFO - Running runs: []
+2024-09-28 21:16:38,786 - wandb.wandb_agent - INFO - Agent received command: run
+2024-09-28 21:16:38,787 - wandb.wandb_agent - INFO - Agent starting run with config:
+	ENV_HPT_mode: False
+	bot_strategy_prob: 0
+	online_simulation_factor: 4
+	seed: 5
+2024-09-28 21:16:38,788 - wandb.wandb_agent - INFO - About to run command: python StrategyTransfer.py --ENV_HPT_mode=False --bot_strategy_prob=0 --online_simulation_factor=4 --seed=5
+python: can't open file 'StrategyTransfer.py': [Errno 2] No such file or directory
+wandb: Starting wandb agent 🕵️
+2024-09-28 21:16:43,797 - wandb.wandb_agent - INFO - Running runs: ['2rbaw3gd']
+2024-09-28 21:16:43,798 - wandb.wandb_agent - INFO - Cleaning up finished run: 2rbaw3gd
+2024-09-28 21:16:44,163 - wandb.wandb_agent - INFO - Agent received command: run
+2024-09-28 21:16:44,163 - wandb.wandb_agent - INFO - Agent starting run with config:
+	ENV_HPT_mode: False
+	bot_strategy_prob: 0.25
+	online_simulation_factor: 0
+	seed: 1
+2024-09-28 21:16:44,164 - wandb.wandb_agent - INFO - About to run command: python StrategyTransfer.py --ENV_HPT_mode=False --bot_strategy_prob=0.25 --online_simulation_factor=0 --seed=1
+python: can't open file 'StrategyTransfer.py': [Errno 2] No such file or directory
+2024-09-28 21:16:46,703 - wandb.wandb_agent - INFO - Running runs: []
+2024-09-28 21:16:46,930 - wandb.wandb_agent - INFO - Agent received command: run
+2024-09-28 21:16:46,931 - wandb.wandb_agent - INFO - Agent starting run with config:
+	ENV_HPT_mode: False
+	bot_strategy_prob: 0.25
+	online_simulation_factor: 0
+	seed: 2
+2024-09-28 21:16:46,932 - wandb.wandb_agent - INFO - About to run command: python StrategyTransfer.py --ENV_HPT_mode=False --bot_strategy_prob=0.25 --online_simulation_factor=0 --seed=2
+python: can't open file 'StrategyTransfer.py': [Errno 2] No such file or directory
+2024-09-28 21:16:49,174 - wandb.wandb_agent - INFO - Running runs: ['2aklrpd8']
+2024-09-28 21:16:49,175 - wandb.wandb_agent - INFO - Cleaning up finished run: 2aklrpd8
+2024-09-28 21:16:49,401 - wandb.wandb_agent - INFO - Agent received command: run
+2024-09-28 21:16:49,401 - wandb.wandb_agent - INFO - Agent starting run with config:
+	ENV_HPT_mode: False
+	bot_strategy_prob: 0.25
+	online_simulation_factor: 0
+	seed: 3
+2024-09-28 21:16:49,403 - wandb.wandb_agent - INFO - About to run command: python StrategyTransfer.py --ENV_HPT_mode=False --bot_strategy_prob=0.25 --online_simulation_factor=0 --seed=3
+python: can't open file 'StrategyTransfer.py': [Errno 2] No such file or directory
+2024-09-28 21:16:51,941 - wandb.wandb_agent - INFO - Running runs: ['0u5r34n7']
+2024-09-28 21:16:51,942 - wandb.wandb_agent - INFO - Cleaning up finished run: 0u5r34n7
+2024-09-28 21:16:51,980 - wandb.wandb_agent - INFO - Running runs: []
+2024-09-28 21:16:52,149 - wandb.wandb_agent - INFO - Agent received command: run
+2024-09-28 21:16:52,149 - wandb.wandb_agent - INFO - Agent starting run with config:
+	ENV_HPT_mode: False
+	bot_strategy_prob: 0.25
+	online_simulation_factor: 0
+	seed: 4
+2024-09-28 21:16:52,150 - wandb.wandb_agent - INFO - About to run command: python StrategyTransfer.py --ENV_HPT_mode=False --bot_strategy_prob=0.25 --online_simulation_factor=0 --seed=4
+python: can't open file 'StrategyTransfer.py': [Errno 2] No such file or directory
+2024-09-28 21:16:52,291 - wandb.wandb_agent - INFO - Agent received command: run
+2024-09-28 21:16:52,291 - wandb.wandb_agent - INFO - Agent starting run with config:
+	ENV_HPT_mode: False
+	bot_strategy_prob: 0.25
+	online_simulation_factor: 0
+	seed: 5
+2024-09-28 21:16:52,292 - wandb.wandb_agent - INFO - About to run command: python StrategyTransfer.py --ENV_HPT_mode=False --bot_strategy_prob=0.25 --online_simulation_factor=0 --seed=5
+python: can't open file 'StrategyTransfer.py': [Errno 2] No such file or directory
+2024-09-28 21:16:54,412 - wandb.wandb_agent - INFO - Running runs: ['hlx259wl']
+2024-09-28 21:16:54,413 - wandb.wandb_agent - ERROR - Detected 3 failed runs in the first 60 seconds, shutting down.
+2024-09-28 21:16:54,413 - wandb.wandb_agent - INFO - To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+wandb: Terminating and syncing runs. Press ctrl-c to kill.
+2024-09-28 21:16:57,160 - wandb.wandb_agent - INFO - Running runs: ['o9u95n6l']
+2024-09-28 21:16:57,160 - wandb.wandb_agent - INFO - Cleaning up finished run: o9u95n6l
+2024-09-28 21:16:57,298 - wandb.wandb_agent - INFO - Running runs: ['c9w82v7m']
+2024-09-28 21:16:57,298 - wandb.wandb_agent - INFO - Cleaning up finished run: c9w82v7m
+2024-09-28 21:16:57,471 - wandb.wandb_agent - INFO - Agent received command: run
+2024-09-28 21:16:57,471 - wandb.wandb_agent - INFO - Agent starting run with config:
+	ENV_HPT_mode: False
+	bot_strategy_prob: 0.25
+	online_simulation_factor: 4
+	seed: 1
+2024-09-28 21:16:57,472 - wandb.wandb_agent - INFO - About to run command: python StrategyTransfer.py --ENV_HPT_mode=False --bot_strategy_prob=0.25 --online_simulation_factor=4 --seed=1
+python: can't open file 'StrategyTransfer.py': [Errno 2] No such file or directory
+2024-09-28 21:16:57,613 - wandb.wandb_agent - INFO - Agent received command: run
+2024-09-28 21:16:57,613 - wandb.wandb_agent - INFO - Agent starting run with config:
+	ENV_HPT_mode: False
+	bot_strategy_prob: 0.25
+	online_simulation_factor: 4
+	seed: 2
+2024-09-28 21:16:57,615 - wandb.wandb_agent - INFO - About to run command: python StrategyTransfer.py --ENV_HPT_mode=False --bot_strategy_prob=0.25 --online_simulation_factor=4 --seed=2
+python: can't open file 'StrategyTransfer.py': [Errno 2] No such file or directory
+2024-09-28 21:17:02,482 - wandb.wandb_agent - INFO - Running runs: ['5yjou326']
+2024-09-28 21:17:02,483 - wandb.wandb_agent - INFO - Cleaning up finished run: 5yjou326
+2024-09-28 21:17:02,621 - wandb.wandb_agent - INFO - Running runs: ['6fv87g5w']
+2024-09-28 21:17:02,622 - wandb.wandb_agent - ERROR - Detected 3 failed runs in the first 60 seconds, shutting down.
+2024-09-28 21:17:02,622 - wandb.wandb_agent - INFO - To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+wandb: Terminating and syncing runs. Press ctrl-c to kill.
+2024-09-28 21:17:02,940 - wandb.wandb_agent - INFO - Agent received command: run
+2024-09-28 21:17:02,941 - wandb.wandb_agent - INFO - Agent starting run with config:
+	ENV_HPT_mode: False
+	bot_strategy_prob: 0.25
+	online_simulation_factor: 4
+	seed: 3
+2024-09-28 21:17:02,942 - wandb.wandb_agent - INFO - About to run command: python StrategyTransfer.py --ENV_HPT_mode=False --bot_strategy_prob=0.25 --online_simulation_factor=4 --seed=3
+python: can't open file 'StrategyTransfer.py': [Errno 2] No such file or directory
+2024-09-28 21:17:07,951 - wandb.wandb_agent - INFO - Running runs: ['6r25vr1i']
+2024-09-28 21:17:07,952 - wandb.wandb_agent - ERROR - Detected 3 failed runs in the first 60 seconds, shutting down.
+2024-09-28 21:17:07,952 - wandb.wandb_agent - INFO - To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+wandb: Terminating and syncing runs. Press ctrl-c to kill.
+wandb: Starting wandb agent 🕵️
+2024-09-28 21:50:29,714 - wandb.wandb_agent - INFO - Running runs: []
+wandb: Starting wandb agent 🕵️
+2024-09-28 21:50:29,881 - wandb.wandb_agent - INFO - Agent received command: run
+2024-09-28 21:50:29,882 - wandb.wandb_agent - INFO - Agent starting run with config:
+	ENV_HPT_mode: False
+	bot_strategy_prob: 0
+	online_simulation_factor: 0
+	seed: 1
+2024-09-28 21:50:29,883 - wandb.wandb_agent - INFO - About to run command: python StrategyTransfer.py --ENV_HPT_mode=False --bot_strategy_prob=0 --online_simulation_factor=0 --seed=1
+python: can't open file 'StrategyTransfer.py': [Errno 2] No such file or directory
+2024-09-28 21:50:34,889 - wandb.wandb_agent - INFO - Running runs: ['gst453ir']
+2024-09-28 21:50:34,890 - wandb.wandb_agent - INFO - Cleaning up finished run: gst453ir
+2024-09-28 21:50:35,053 - wandb.wandb_agent - INFO - Running runs: []
+2024-09-28 21:50:35,220 - wandb.wandb_agent - INFO - Agent received command: run
+2024-09-28 21:50:35,220 - wandb.wandb_agent - INFO - Agent starting run with config:
+	ENV_HPT_mode: False
+	bot_strategy_prob: 0
+	online_simulation_factor: 0
+	seed: 2
+2024-09-28 21:50:35,221 - wandb.wandb_agent - INFO - About to run command: python StrategyTransfer.py --ENV_HPT_mode=False --bot_strategy_prob=0 --online_simulation_factor=0 --seed=2
+python: can't open file 'StrategyTransfer.py': [Errno 2] No such file or directory
+2024-09-28 21:50:35,283 - wandb.wandb_agent - INFO - Agent received command: run
+2024-09-28 21:50:35,283 - wandb.wandb_agent - INFO - Agent starting run with config:
+	ENV_HPT_mode: False
+	bot_strategy_prob: 0
+	online_simulation_factor: 0
+	seed: 3
+2024-09-28 21:50:35,284 - wandb.wandb_agent - INFO - About to run command: python StrategyTransfer.py --ENV_HPT_mode=False --bot_strategy_prob=0 --online_simulation_factor=0 --seed=3
+python: can't open file 'StrategyTransfer.py': [Errno 2] No such file or directory
+wandb: Starting wandb agent 🕵️
+2024-09-28 21:50:40,231 - wandb.wandb_agent - INFO - Running runs: ['yr7p0i9g']
+2024-09-28 21:50:40,232 - wandb.wandb_agent - INFO - Cleaning up finished run: yr7p0i9g
+2024-09-28 21:50:40,294 - wandb.wandb_agent - INFO - Running runs: ['x9skftm7']
+2024-09-28 21:50:40,294 - wandb.wandb_agent - INFO - Cleaning up finished run: x9skftm7
+2024-09-28 21:50:40,481 - wandb.wandb_agent - INFO - Agent received command: run
+2024-09-28 21:50:40,481 - wandb.wandb_agent - INFO - Agent starting run with config:
+	ENV_HPT_mode: False
+	bot_strategy_prob: 0
+	online_simulation_factor: 0
+	seed: 4
+2024-09-28 21:50:40,482 - wandb.wandb_agent - INFO - About to run command: python StrategyTransfer.py --ENV_HPT_mode=False --bot_strategy_prob=0 --online_simulation_factor=0 --seed=4
+python: can't open file 'StrategyTransfer.py': [Errno 2] No such file or directory
+2024-09-28 21:50:40,814 - wandb.wandb_agent - INFO - Agent received command: run
+2024-09-28 21:50:40,815 - wandb.wandb_agent - INFO - Agent starting run with config:
+	ENV_HPT_mode: False
+	bot_strategy_prob: 0
+	online_simulation_factor: 0
+	seed: 5
+2024-09-28 21:50:40,816 - wandb.wandb_agent - INFO - About to run command: python StrategyTransfer.py --ENV_HPT_mode=False --bot_strategy_prob=0 --online_simulation_factor=0 --seed=5
+python: can't open file 'StrategyTransfer.py': [Errno 2] No such file or directory
+2024-09-28 21:50:41,672 - wandb.wandb_agent - INFO - Running runs: []
+2024-09-28 21:50:41,848 - wandb.wandb_agent - INFO - Agent received command: run
+2024-09-28 21:50:41,848 - wandb.wandb_agent - INFO - Agent starting run with config:
+	ENV_HPT_mode: False
+	bot_strategy_prob: 0
+	online_simulation_factor: 4
+	seed: 1
+2024-09-28 21:50:41,849 - wandb.wandb_agent - INFO - About to run command: python StrategyTransfer.py --ENV_HPT_mode=False --bot_strategy_prob=0 --online_simulation_factor=4 --seed=1
+python: can't open file 'StrategyTransfer.py': [Errno 2] No such file or directory
+wandb: Starting wandb agent 🕵️
+2024-09-28 21:50:45,492 - wandb.wandb_agent - INFO - Running runs: ['lgbjt8yd']
+2024-09-28 21:50:45,493 - wandb.wandb_agent - ERROR - Detected 3 failed runs in the first 60 seconds, shutting down.
+2024-09-28 21:50:45,493 - wandb.wandb_agent - INFO - To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+wandb: Terminating and syncing runs. Press ctrl-c to kill.
+2024-09-28 21:50:45,825 - wandb.wandb_agent - INFO - Running runs: ['xg3nx2oi']
+2024-09-28 21:50:45,826 - wandb.wandb_agent - INFO - Cleaning up finished run: xg3nx2oi
+2024-09-28 21:50:46,026 - wandb.wandb_agent - INFO - Agent received command: run
+2024-09-28 21:50:46,026 - wandb.wandb_agent - INFO - Agent starting run with config:
+	ENV_HPT_mode: False
+	bot_strategy_prob: 0
+	online_simulation_factor: 4
+	seed: 2
+2024-09-28 21:50:46,027 - wandb.wandb_agent - INFO - About to run command: python StrategyTransfer.py --ENV_HPT_mode=False --bot_strategy_prob=0 --online_simulation_factor=4 --seed=2
+python: can't open file 'StrategyTransfer.py': [Errno 2] No such file or directory
+2024-09-28 21:50:46,860 - wandb.wandb_agent - INFO - Running runs: ['lmai6oz8']
+2024-09-28 21:50:46,860 - wandb.wandb_agent - INFO - Cleaning up finished run: lmai6oz8
+2024-09-28 21:50:47,177 - wandb.wandb_agent - INFO - Agent received command: run
+2024-09-28 21:50:47,177 - wandb.wandb_agent - INFO - Agent starting run with config:
+	ENV_HPT_mode: False
+	bot_strategy_prob: 0
+	online_simulation_factor: 4
+	seed: 3
+2024-09-28 21:50:47,179 - wandb.wandb_agent - INFO - About to run command: python StrategyTransfer.py --ENV_HPT_mode=False --bot_strategy_prob=0 --online_simulation_factor=4 --seed=3
+python: can't open file 'StrategyTransfer.py': [Errno 2] No such file or directory
+2024-09-28 21:50:49,631 - wandb.wandb_agent - INFO - Running runs: []
+2024-09-28 21:50:49,808 - wandb.wandb_agent - INFO - Agent received command: run
+2024-09-28 21:50:49,808 - wandb.wandb_agent - INFO - Agent starting run with config:
+	ENV_HPT_mode: False
+	bot_strategy_prob: 0
+	online_simulation_factor: 4
+	seed: 4
+2024-09-28 21:50:49,809 - wandb.wandb_agent - INFO - About to run command: python StrategyTransfer.py --ENV_HPT_mode=False --bot_strategy_prob=0 --online_simulation_factor=4 --seed=4
+python: can't open file 'StrategyTransfer.py': [Errno 2] No such file or directory
+2024-09-28 21:50:51,037 - wandb.wandb_agent - INFO - Running runs: ['kj7zk7xc']
+2024-09-28 21:50:51,038 - wandb.wandb_agent - ERROR - Detected 3 failed runs in the first 60 seconds, shutting down.
+2024-09-28 21:50:51,038 - wandb.wandb_agent - INFO - To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+wandb: Terminating and syncing runs. Press ctrl-c to kill.
+2024-09-28 21:50:52,188 - wandb.wandb_agent - INFO - Running runs: ['zdn38odo']
+2024-09-28 21:50:52,189 - wandb.wandb_agent - INFO - Cleaning up finished run: zdn38odo
+wandb: Starting wandb agent 🕵️
+2024-09-28 21:50:52,659 - wandb.wandb_agent - INFO - Agent received command: run
+2024-09-28 21:50:52,659 - wandb.wandb_agent - INFO - Agent starting run with config:
+	ENV_HPT_mode: False
+	bot_strategy_prob: 0
+	online_simulation_factor: 4
+	seed: 5
+2024-09-28 21:50:52,660 - wandb.wandb_agent - INFO - About to run command: python StrategyTransfer.py --ENV_HPT_mode=False --bot_strategy_prob=0 --online_simulation_factor=4 --seed=5
+python: can't open file 'StrategyTransfer.py': [Errno 2] No such file or directory
+2024-09-28 21:50:54,819 - wandb.wandb_agent - INFO - Running runs: ['ujlmb97c']
+2024-09-28 21:50:54,819 - wandb.wandb_agent - INFO - Cleaning up finished run: ujlmb97c
+2024-09-28 21:50:55,135 - wandb.wandb_agent - INFO - Agent received command: run
+2024-09-28 21:50:55,136 - wandb.wandb_agent - INFO - Agent starting run with config:
+	ENV_HPT_mode: False
+	bot_strategy_prob: 0.25
+	online_simulation_factor: 0
+	seed: 1
+2024-09-28 21:50:55,137 - wandb.wandb_agent - INFO - About to run command: python StrategyTransfer.py --ENV_HPT_mode=False --bot_strategy_prob=0.25 --online_simulation_factor=0 --seed=1
+python: can't open file 'StrategyTransfer.py': [Errno 2] No such file or directory
+2024-09-28 21:50:57,556 - wandb.wandb_agent - INFO - Running runs: []
+2024-09-28 21:50:57,669 - wandb.wandb_agent - INFO - Running runs: ['sceqpmu1']
+2024-09-28 21:50:57,670 - wandb.wandb_agent - ERROR - Detected 3 failed runs in the first 60 seconds, shutting down.
+2024-09-28 21:50:57,670 - wandb.wandb_agent - INFO - To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+wandb: Terminating and syncing runs. Press ctrl-c to kill.
+2024-09-28 21:50:57,761 - wandb.wandb_agent - INFO - Agent received command: run
+2024-09-28 21:50:57,762 - wandb.wandb_agent - INFO - Agent starting run with config:
+	ENV_HPT_mode: False
+	bot_strategy_prob: 0.25
+	online_simulation_factor: 0
+	seed: 2
+2024-09-28 21:50:57,763 - wandb.wandb_agent - INFO - About to run command: python StrategyTransfer.py --ENV_HPT_mode=False --bot_strategy_prob=0.25 --online_simulation_factor=0 --seed=2
+python: can't open file 'StrategyTransfer.py': [Errno 2] No such file or directory
+wandb: Starting wandb agent 🕵️
+2024-09-28 21:51:00,147 - wandb.wandb_agent - INFO - Running runs: ['7glxlc85']
+2024-09-28 21:51:00,147 - wandb.wandb_agent - INFO - Cleaning up finished run: 7glxlc85
+2024-09-28 21:51:01,631 - wandb.wandb_agent - INFO - Agent received command: run
+2024-09-28 21:51:01,631 - wandb.wandb_agent - INFO - Agent starting run with config:
+	ENV_HPT_mode: False
+	bot_strategy_prob: 0.25
+	online_simulation_factor: 0
+	seed: 3
+2024-09-28 21:51:01,633 - wandb.wandb_agent - INFO - About to run command: python StrategyTransfer.py --ENV_HPT_mode=False --bot_strategy_prob=0.25 --online_simulation_factor=0 --seed=3
+python: can't open file 'StrategyTransfer.py': [Errno 2] No such file or directory
+2024-09-28 21:51:02,773 - wandb.wandb_agent - INFO - Running runs: ['a6q5gpyl']
+2024-09-28 21:51:02,773 - wandb.wandb_agent - INFO - Cleaning up finished run: a6q5gpyl
+2024-09-28 21:51:03,032 - wandb.wandb_agent - INFO - Agent received command: run
+2024-09-28 21:51:03,032 - wandb.wandb_agent - INFO - Agent starting run with config:
+	ENV_HPT_mode: False
+	bot_strategy_prob: 0.25
+	online_simulation_factor: 0
+	seed: 4
+2024-09-28 21:51:03,033 - wandb.wandb_agent - INFO - About to run command: python StrategyTransfer.py --ENV_HPT_mode=False --bot_strategy_prob=0.25 --online_simulation_factor=0 --seed=4
+python: can't open file 'StrategyTransfer.py': [Errno 2] No such file or directory
+2024-09-28 21:51:04,309 - wandb.wandb_agent - INFO - Running runs: []
+2024-09-28 21:51:04,735 - wandb.wandb_agent - INFO - Agent received command: run
+2024-09-28 21:51:04,736 - wandb.wandb_agent - INFO - Agent starting run with config:
+	ENV_HPT_mode: False
+	bot_strategy_prob: 0.25
+	online_simulation_factor: 0
+	seed: 5
+2024-09-28 21:51:04,737 - wandb.wandb_agent - INFO - About to run command: python StrategyTransfer.py --ENV_HPT_mode=False --bot_strategy_prob=0.25 --online_simulation_factor=0 --seed=5
+python: can't open file 'StrategyTransfer.py': [Errno 2] No such file or directory
+2024-09-28 21:51:06,641 - wandb.wandb_agent - INFO - Running runs: ['1x0dg6k6']
+2024-09-28 21:51:06,642 - wandb.wandb_agent - ERROR - Detected 3 failed runs in the first 60 seconds, shutting down.
+2024-09-28 21:51:06,642 - wandb.wandb_agent - INFO - To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+wandb: Terminating and syncing runs. Press ctrl-c to kill.
+2024-09-28 21:51:08,043 - wandb.wandb_agent - INFO - Running runs: ['jp301953']
+2024-09-28 21:51:08,044 - wandb.wandb_agent - INFO - Cleaning up finished run: jp301953
+2024-09-28 21:51:08,272 - wandb.wandb_agent - INFO - Agent received command: run
+2024-09-28 21:51:08,272 - wandb.wandb_agent - INFO - Agent starting run with config:
+	ENV_HPT_mode: False
+	bot_strategy_prob: 0.25
+	online_simulation_factor: 4
+	seed: 1
+2024-09-28 21:51:08,273 - wandb.wandb_agent - INFO - About to run command: python StrategyTransfer.py --ENV_HPT_mode=False --bot_strategy_prob=0.25 --online_simulation_factor=4 --seed=1
+python: can't open file 'StrategyTransfer.py': [Errno 2] No such file or directory
+2024-09-28 21:51:09,746 - wandb.wandb_agent - INFO - Running runs: ['yjfoe9ee']
+2024-09-28 21:51:09,747 - wandb.wandb_agent - INFO - Cleaning up finished run: yjfoe9ee
+2024-09-28 21:51:10,009 - wandb.wandb_agent - INFO - Agent received command: run
+2024-09-28 21:51:10,010 - wandb.wandb_agent - INFO - Agent starting run with config:
+	ENV_HPT_mode: False
+	bot_strategy_prob: 0.25
+	online_simulation_factor: 4
+	seed: 2
+2024-09-28 21:51:10,011 - wandb.wandb_agent - INFO - About to run command: python StrategyTransfer.py --ENV_HPT_mode=False --bot_strategy_prob=0.25 --online_simulation_factor=4 --seed=2
+python: can't open file 'StrategyTransfer.py': [Errno 2] No such file or directory
+2024-09-28 21:51:13,283 - wandb.wandb_agent - INFO - Running runs: ['9093p3cf']
+2024-09-28 21:51:13,284 - wandb.wandb_agent - ERROR - Detected 3 failed runs in the first 60 seconds, shutting down.
+2024-09-28 21:51:13,284 - wandb.wandb_agent - INFO - To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+wandb: Terminating and syncing runs. Press ctrl-c to kill.
+2024-09-28 21:51:15,021 - wandb.wandb_agent - INFO - Running runs: ['bqe190sr']
+2024-09-28 21:51:15,021 - wandb.wandb_agent - INFO - Cleaning up finished run: bqe190sr
+2024-09-28 21:51:16,578 - wandb.wandb_agent - INFO - Agent received command: run
+2024-09-28 21:51:16,578 - wandb.wandb_agent - INFO - Agent starting run with config:
+	ENV_HPT_mode: False
+	bot_strategy_prob: 0.25
+	online_simulation_factor: 4
+	seed: 3
+2024-09-28 21:51:16,579 - wandb.wandb_agent - INFO - About to run command: python StrategyTransfer.py --ENV_HPT_mode=False --bot_strategy_prob=0.25 --online_simulation_factor=4 --seed=3
+python: can't open file 'StrategyTransfer.py': [Errno 2] No such file or directory
+2024-09-28 21:51:21,589 - wandb.wandb_agent - INFO - Running runs: ['89fydwek']
+2024-09-28 21:51:21,589 - wandb.wandb_agent - ERROR - Detected 3 failed runs in the first 60 seconds, shutting down.
+2024-09-28 21:51:21,589 - wandb.wandb_agent - INFO - To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+wandb: Terminating and syncing runs. Press ctrl-c to kill.
+wandb: Starting wandb agent 🕵️
+wandb: ERROR Find detailed error logs at: /home/student/final_project/HumanChoicePrediction/RunningScripts/wandb/debug-cli.student.log
+Error: Sweep ravid-d/NLP2024_PROJECT_RavidDimant/cr8zcg71 not found
+wandb: Starting wandb agent 🕵️
+wandb: ERROR Find detailed error logs at: /home/student/final_project/HumanChoicePrediction/RunningScripts/wandb/debug-cli.student.log
+Error: Sweep ravid-d/NLP2024_PROJECT_RavidDimant/cr8zcg71 not found
+wandb: Starting wandb agent 🕵️
+wandb: ERROR Find detailed error logs at: /home/student/final_project/HumanChoicePrediction/RunningScripts/wandb/debug-cli.student.log
+Error: Sweep ravid-d/NLP2024_PROJECT_RavidDimant/cr8zcg71 not found
+wandb: Starting wandb agent 🕵️
+wandb: ERROR Find detailed error logs at: /home/student/final_project/HumanChoicePrediction/RunningScripts/wandb/debug-cli.student.log
+Error: Sweep ravid-d/NLP2024_PROJECT_RavidDimant/cr8zcg71 not found
+wandb: Starting wandb agent 🕵️
+wandb: ERROR Find detailed error logs at: /home/student/final_project/HumanChoicePrediction/RunningScripts/wandb/debug-cli.student.log
+Error: Sweep ravid-d/NLP2024_PROJECT_RavidDimant/cr8zcg71 not found
+wandb: Starting wandb agent 🕵️
+wandb: ERROR Find detailed error logs at: /home/student/final_project/HumanChoicePrediction/RunningScripts/wandb/debug-cli.student.log
+Error: Sweep ravid-d/NLP2024_PROJECT_RavidDimant/cr8zcg71 not found
+wandb: Starting wandb agent 🕵️
+wandb: ERROR Find detailed error logs at: /home/student/final_project/HumanChoicePrediction/RunningScripts/wandb/debug-cli.student.log
+Error: Sweep ravid-d/NLP2024_PROJECT_RavidDimant/zv3h8t0y not found
+wandb: Starting wandb agent 🕵️
+wandb: ERROR Find detailed error logs at: /home/student/final_project/HumanChoicePrediction/RunningScripts/wandb/debug-cli.student.log
+Error: Sweep ravid-d/NLP2024_PROJECT_RavidDimant/zv3h8t0y not found
+wandb: Starting wandb agent 🕵️
+wandb: ERROR Find detailed error logs at: /home/student/final_project/HumanChoicePrediction/RunningScripts/wandb/debug-cli.student.log
+Error: Sweep ravid-d/NLP2024_PROJECT_RavidDimant/zv3h8t0y not found
+wandb: Starting wandb agent 🕵️
+wandb: ERROR Find detailed error logs at: /home/student/final_project/HumanChoicePrediction/RunningScripts/wandb/debug-cli.student.log
+Error: Sweep ravid-d/NLP2024_PROJECT_RavidDimant/zv3h8t0y not found
+wandb: Starting wandb agent 🕵️
+wandb: ERROR Find detailed error logs at: /home/student/final_project/HumanChoicePrediction/RunningScripts/wandb/debug-cli.student.log
+Error: Sweep ravid-d/NLP2024_PROJECT_RavidDimant/zv3h8t0y not found
+wandb: Starting wandb agent 🕵️
+wandb: ERROR Find detailed error logs at: /home/student/final_project/HumanChoicePrediction/RunningScripts/wandb/debug-cli.student.log
+Error: Sweep ravid-d/NLP2024_PROJECT_RavidDimant/zv3h8t0y not found
+wandb: Starting wandb agent 🕵️
+wandb: ERROR Find detailed error logs at: /home/student/final_project/HumanChoicePrediction/RunningScripts/wandb/debug-cli.student.log
+Error: Sweep ravid-d/NLP2024_PROJECT_RavidDimant/trr0by60 not found
+wandb: Starting wandb agent 🕵️
+wandb: ERROR Find detailed error logs at: /home/student/final_project/HumanChoicePrediction/RunningScripts/wandb/debug-cli.student.log
+Error: Sweep ravid-d/NLP2024_PROJECT_RavidDimant/2pirop5c not found
+wandb: Starting wandb agent 🕵️
+wandb: ERROR Find detailed error logs at: /home/student/final_project/HumanChoicePrediction/RunningScripts/wandb/debug-cli.student.log
+Error: Sweep ravid-d/NLP2024_PROJECT_RavidDimant/2pirop5c not found
+wandb: Starting wandb agent 🕵️
+wandb: ERROR Find detailed error logs at: /home/student/final_project/HumanChoicePrediction/RunningScripts/wandb/debug-cli.student.log
+Error: Sweep ravid-d/NLP2024_PROJECT_RavidDimant/2pirop5c not found
+wandb: Starting wandb agent 🕵️
+wandb: ERROR Find detailed error logs at: /home/student/final_project/HumanChoicePrediction/RunningScripts/wandb/debug-cli.student.log
+Error: Sweep ravid-d/NLP2024_PROJECT_RavidDimant/2pirop5c not found
+wandb: Starting wandb agent 🕵️
+wandb: ERROR Find detailed error logs at: /home/student/final_project/HumanChoicePrediction/RunningScripts/wandb/debug-cli.student.log
+Error: Sweep ravid-d/NLP2024_PROJECT_RavidDimant/2pirop5c not found
+wandb: Starting wandb agent 🕵️
+wandb: ERROR Find detailed error logs at: /home/student/final_project/HumanChoicePrediction/RunningScripts/wandb/debug-cli.student.log
+Error: Sweep ravid-d/NLP2024_PROJECT_RavidDimant/2pirop5c not found
+wandb: Starting wandb agent 🕵️
+wandb: ERROR Find detailed error logs at: /home/student/final_project/HumanChoicePrediction/RunningScripts/wandb/debug-cli.student.log
+Error: Sweep ravid-d/NLP2024_PROJECT_RavidDimant/xeoy63uo not found
+wandb: Starting wandb agent 🕵️
+2024-10-01 14:10:07,679 - wandb.wandb_agent - INFO - Running runs: []
+2024-10-01 14:10:07,853 - wandb.wandb_agent - INFO - Agent received command: run
+2024-10-01 14:10:07,854 - wandb.wandb_agent - INFO - Agent starting run with config:
+	ENV_HPT_mode: False
+	bot_strategy_prob: 0
+	seed: 2
+2024-10-01 14:10:07,855 - wandb.wandb_agent - INFO - About to run command: python StrategyTransfer.py --ENV_HPT_mode=False --bot_strategy_prob=0 --seed=2
+python: can't open file 'StrategyTransfer.py': [Errno 2] No such file or directory
+2024-10-01 14:10:12,870 - wandb.wandb_agent - INFO - Running runs: ['qfjede0w']
+2024-10-01 14:10:12,871 - wandb.wandb_agent - INFO - Cleaning up finished run: qfjede0w
+2024-10-01 14:10:13,283 - wandb.wandb_agent - INFO - Agent received command: run
+2024-10-01 14:10:13,284 - wandb.wandb_agent - INFO - Agent starting run with config:
+	ENV_HPT_mode: False
+	bot_strategy_prob: 0
+	seed: 3
+2024-10-01 14:10:13,286 - wandb.wandb_agent - INFO - About to run command: python StrategyTransfer.py --ENV_HPT_mode=False --bot_strategy_prob=0 --seed=3
+python: can't open file 'StrategyTransfer.py': [Errno 2] No such file or directory
+2024-10-01 14:10:18,307 - wandb.wandb_agent - INFO - Running runs: ['3zn1uaif']
+2024-10-01 14:10:18,308 - wandb.wandb_agent - INFO - Cleaning up finished run: 3zn1uaif
+2024-10-01 14:10:18,523 - wandb.wandb_agent - INFO - Agent received command: run
+2024-10-01 14:10:18,524 - wandb.wandb_agent - INFO - Agent starting run with config:
+	ENV_HPT_mode: False
+	bot_strategy_prob: 0
+	seed: 4
+2024-10-01 14:10:18,525 - wandb.wandb_agent - INFO - About to run command: python StrategyTransfer.py --ENV_HPT_mode=False --bot_strategy_prob=0 --seed=4
+python: can't open file 'StrategyTransfer.py': [Errno 2] No such file or directory
+2024-10-01 14:10:23,538 - wandb.wandb_agent - INFO - Running runs: ['30m96l65']
+2024-10-01 14:10:23,539 - wandb.wandb_agent - ERROR - Detected 3 failed runs in the first 60 seconds, shutting down.
+2024-10-01 14:10:23,539 - wandb.wandb_agent - INFO - To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+wandb: Terminating and syncing runs. Press ctrl-c to kill.
+wandb: Starting wandb agent 🕵️
+2024-10-01 14:11:13,047 - wandb.wandb_agent - INFO - Running runs: []
+2024-10-01 14:11:13,314 - wandb.wandb_agent - INFO - Agent received command: run
+2024-10-01 14:11:13,314 - wandb.wandb_agent - INFO - Agent starting run with config:
+	ENV_HPT_mode: False
+	bot_strategy_prob: 0
+	seed: 5
+2024-10-01 14:11:13,316 - wandb.wandb_agent - INFO - About to run command: python StrategyTransfer.py --ENV_HPT_mode=False --bot_strategy_prob=0 --seed=5
+python: can't open file 'StrategyTransfer.py': [Errno 2] No such file or directory
+2024-10-01 14:11:18,327 - wandb.wandb_agent - INFO - Running runs: ['f17t989m']
+2024-10-01 14:11:18,328 - wandb.wandb_agent - INFO - Cleaning up finished run: f17t989m
+2024-10-01 14:11:18,939 - wandb.wandb_agent - INFO - Agent received command: run
+2024-10-01 14:11:18,939 - wandb.wandb_agent - INFO - Agent starting run with config:
+	ENV_HPT_mode: False
+	bot_strategy_prob: 0.25
+	seed: 1
+2024-10-01 14:11:18,941 - wandb.wandb_agent - INFO - About to run command: python StrategyTransfer.py --ENV_HPT_mode=False --bot_strategy_prob=0.25 --seed=1
+python: can't open file 'StrategyTransfer.py': [Errno 2] No such file or directory
+2024-10-01 14:11:23,951 - wandb.wandb_agent - INFO - Running runs: ['wb1fcp8d']
+2024-10-01 14:11:23,952 - wandb.wandb_agent - INFO - Cleaning up finished run: wb1fcp8d
+2024-10-01 14:11:24,135 - wandb.wandb_agent - INFO - Agent received command: run
+2024-10-01 14:11:24,135 - wandb.wandb_agent - INFO - Agent starting run with config:
+	ENV_HPT_mode: False
+	bot_strategy_prob: 0.25
+	seed: 2
+2024-10-01 14:11:24,137 - wandb.wandb_agent - INFO - About to run command: python StrategyTransfer.py --ENV_HPT_mode=False --bot_strategy_prob=0.25 --seed=2
+python: can't open file 'StrategyTransfer.py': [Errno 2] No such file or directory
+2024-10-01 14:11:29,147 - wandb.wandb_agent - INFO - Running runs: ['izndobrj']
+2024-10-01 14:11:29,148 - wandb.wandb_agent - ERROR - Detected 3 failed runs in the first 60 seconds, shutting down.
+2024-10-01 14:11:29,148 - wandb.wandb_agent - INFO - To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+wandb: Terminating and syncing runs. Press ctrl-c to kill.

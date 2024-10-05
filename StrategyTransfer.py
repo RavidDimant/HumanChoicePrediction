@@ -53,6 +53,9 @@ parser.add_argument('--zero_knowledge', type=str2bool, default=True, help='Zero 
 parser.add_argument('--bots_per_user', type=int, default=6, help='Bots per user')
 parser.add_argument('--SIMULATION_EFs_PATH', type=str, default="data/EFs_by_GPT35.csv", help='Simulation EFs path')
 parser.add_argument('--favorite_topic_method', type=str, default="review", help='Favorite topic method')
+parser.add_argument('--bot_strategy_prob', type=float, default=0.75,
+                    help='Probability of choosing between strategies for the bot')
+
 
 # Advanced Projects' Features
 parser.add_argument('--agent', type=str, default="modelbasedRL", help='Agent type')

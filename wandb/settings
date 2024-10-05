@@ -1,0 +1,5 @@
+[default]
+entity = technion-nlp
+project = NLP2024_PROJECT_RavidDimant
+base_url = https://api.wandb.ai
+

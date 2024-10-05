@@ -30,7 +30,7 @@ class OfflineDataSet(Dataset):
         if "X" in user_groups:  # Offline Human - training groups (E_A)
             self.actions_df = pd.read_csv(x_path)
             assert self.actions_df.user_id.max() + 1 == DATA_CLEAN_ACTION_PATH_X_NUMBER_OF_USERS
-        if "Y" in user_groups: # Offline Human - testing groups (E_B)
+        if "Y" in user_groups:  # Offline Human - testing groups (E_B)
             Y_dataset = pd.read_csv(y_path)
             assert Y_dataset.user_id.max() + 1 == DATA_CLEAN_ACTION_PATH_Y_NUMBER_OF_USERS
             Y_dataset.user_id += DATA_CLEAN_ACTION_PATH_X_NUMBER_OF_USERS
@@ -54,11 +54,12 @@ class OfflineDataSet(Dataset):
 
         if users is not None:
             self.actions_df = self.actions_df[self.actions_df["user_id"].isin(users.tolist())]
-            assert self.actions_df["user_id"].nunique() == len(users.tolist()), "some of the users that chosen to used"\
+            assert self.actions_df["user_id"].nunique() == len(users.tolist()), "some of the users that chosen to used" \
                                                                                 "are not exists in the dataset!"
 
         if "persona" in self.actions_df.columns:
-            print("user per persona:", self.actions_df[["persona", "user_id"]].drop_duplicates().groupby("persona").count())
+            print("user per persona:",
+                  self.actions_df[["persona", "user_id"]].drop_duplicates().groupby("persona").count())
 
         grouped_counts = self.actions_df.groupby(["user_id", "strategy_id"]).size().reset_index(name="N")
         self.actions_df = self.actions_df.merge(grouped_counts, on=["user_id", "strategy_id"], how="left")
@@ -172,6 +173,7 @@ class OnlineSimulationDataSet(Dataset):
         n_users = config["online_simulation_size"]
         basic_nature = config["basic_nature"]
         zero_knowledge = config["zero_knowledge"]
+        bot_strategy_prob = config["bot_strategy_prob"]
         weight_type = self.config["loss_weight_type"]
         self.bots_per_user = config["bots_per_user"]
 
@@ -187,6 +189,7 @@ class OnlineSimulationDataSet(Dataset):
         self.total_games_created = 0
         self.user_improve = user_improve
         self.zero_knowledge = zero_knowledge
+        self.bot_strategy_prob = bot_strategy_prob
         self.favorite_topic_method = favorite_topic_method
         self.weight_type = weight_type
 
@@ -248,9 +251,21 @@ class OnlineSimulationDataSet(Dataset):
                             3: ("topic based", basic_nature[2], user_strategies.topic_based(positive_topics,
                                                                                             negative_topics,
                                                                                             quality_threshold)),
-                            4: ("LLM stochastic (Language-based)",  basic_nature[3], user_strategies.LLM_based(is_stochastic=True)),
+                            4: ("LLM stochastic (Language-based)", basic_nature[3],
+                                user_strategies.LLM_based(is_stochastic=True)),
                             5: ("LLM deterministic", basic_nature[4], user_strategies.LLM_based(is_stochastic=False)),
+                            6: ("Confidence interval based", basic_nature[5], user_strategies.based_confidence_intervals),
+                            7: ("T-tests based", basic_nature[6], user_strategies.based_t_tests),
+                            8: ("Bootstraps based", basic_nature[7], user_strategies.based_bootstraps),
+                            9: ("Mean scores based", basic_nature[8], user_strategies.based_mean_scores),
+                            10: ("Statistically based consensus", basic_nature[9],
+                                 user_strategies.consensus_statistics_decision),
+                            11: ("Tit for Tat", basic_nature[10], user_strategies.user_short_t4t),
+                            12: ("Explore & Exploit", basic_nature[11], user_strategies.explore_and_exploit),
+                            13: ("UCB", basic_nature[12], user_strategies.based_ucb_decision),
+                            14: ("LLM-Bot Difference", basic_nature[13], user_strategies.llm_bot_diff),
                             }
+
             self.nature = np.random.rand(len(self.ACTIONS)) * np.array([v[1] for v in self.ACTIONS.values()])
             self.nature = self.nature / sum(self.nature)
             self.user_proba = self.nature.copy()
@@ -260,7 +275,8 @@ class OnlineSimulationDataSet(Dataset):
             self.user_proba = self.nature.copy()
 
         def update_proba(self):
-            reduce_feelings = np.random.rand(len(self.ACTIONS) - 1) * self.user_improve * 10/9 - (self.user_improve / 10)
+            reduce_feelings = np.random.rand(len(self.ACTIONS) - 1) * self.user_improve * 10 / 9 - (
+                    self.user_improve / 10)
             total_reduced = self.user_proba[1:] * reduce_feelings
             self.user_proba[1:] -= total_reduced
             self.user_proba[1:] = np.maximum(0, self.user_proba[1:])
@@ -323,6 +339,20 @@ class OnlineSimulationDataSet(Dataset):
         self.users[user].append(game)
 
     def sample_bots(self):
+        if random.random() <= self.bot_strategy_prob:
+            return [1179, 1180, 1181, 1182, 1183, 1184]  # the bot helps the DM
+        else:
+            if self.zero_knowledge:
+                return random.sample(range(DATA_N_BOTS), self.bots_per_user)
+            else:
+                if self.config["ENV_HPT_mode"]:
+                    return [3, 0, 2, 5, 19, 59]
+                else:
+                    options = [3, 0, 2, 5, 19, 59] + [132, 23, 107, 43, 17, 93]
+                    return random.sample(options, self.bots_per_user)
+
+    """
+    def sample_bots(self):
         if self.zero_knowledge:
             return random.sample(range(DATA_N_BOTS), self.bots_per_user)
         else:
@@ -331,7 +361,7 @@ class OnlineSimulationDataSet(Dataset):
             else:
                 options = [3, 0, 2, 5, 19, 59] + [132, 23, 107, 43, 17, 93]
                 return random.sample(options, self.bots_per_user)
-
+    """
 
     def new_user(self):
         user_id = self.next_user

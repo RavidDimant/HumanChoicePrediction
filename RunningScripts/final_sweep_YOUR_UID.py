@@ -1,6 +1,8 @@
 import wandb
 YOUR_WANDB_USERNAME = "eilamshapira"
 project = "NLP2024_PROJECT_YOUR_UID"
+# YOUR_WANDB_USERNAME = "ravid-d"
+# project = "NLP2024_PROJECT_ravid-d"
 
 command = [
         "${ENVIRONMENT_VARIABLE}",

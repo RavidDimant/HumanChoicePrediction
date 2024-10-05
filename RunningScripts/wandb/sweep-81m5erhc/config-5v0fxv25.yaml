@@ -1,0 +1,8 @@
+wandb_version: 1
+
+ENV_HPT_mode:
+  value: false
+bot_strategy_prob:
+  value: 0.5
+seed:
+  value: 2
